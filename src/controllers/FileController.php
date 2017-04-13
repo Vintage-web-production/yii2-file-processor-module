@@ -124,7 +124,7 @@ class FileController extends \yii\web\Controller
     {
         $options = [];
 
-        if (isset($config['quality']) && is_int($config['quality'])) {
+        if (isset($config['quality']) && is_int($config['quality']) && $config['quality'] < 100 && $config['quality'] > 0 ) {
             $options['quality'] = $config['quality'];
         }
 
