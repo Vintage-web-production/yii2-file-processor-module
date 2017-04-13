@@ -16,6 +16,7 @@ class FPM
     const ACTION_CANVAS_THUMBNAIL = 'canvasThumbnail';
     const ACTION_FRAME = 'frame';
     const ACTION_COPY = 'copy';
+    const ACTION_CHANGE_QUALITY = 'changeQuality';
 
     /**
      * @var \metalguardian\fileProcessor\components\ThumbnailCache
