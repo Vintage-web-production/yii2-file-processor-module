@@ -1,7 +1,3 @@
-[![Total Downloads](https://poser.pugx.org/vadymsemeniuk/yii2-file-processor-module/d/total.png)](https://packagist.org/packages/vadymsemeniuk/yii2-file-processor-module)
-[![Latest Stable Version](https://poser.pugx.org/vadymsemeniuk/yii2-file-processor-module/v/stable.png)](https://packagist.org/packages/vadymsemeniuk/yii2-file-processor-module)
-[![Dependency Status](https://www.versioneye.com/php/vadymsemeniuk:yii2-file-processor-module/dev-master/badge?style=flat)](https://www.versioneye.com/php/vadymsemeniuk:yii2-file-processor-module)
-
 Yii2 file processor module
 ==========================
 Extension to upload and store files
@@ -14,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vadymsemeniuk/yii2-file-processor-module "*"
+php composer.phar require --prefer-dist vintage/yii2-file-processor-module "*"
 ```
 
 or add
 
 ```
-"vadymsemeniuk/yii2-file-processor-module": "*"
+"vintage/yii2-file-processor-module": "*"
 ```
 
 to the require section of your `composer.json` file.
